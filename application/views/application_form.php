@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center mt-5">Registration Form for PAI ROBO CHAMPS Competition 2024</h1>
+        <h1 class="text-center mt-5">Registration Form for PAI ROBO CHAMP Competition 2024</h1>
         <form method="post" action="<?php echo base_url('FormController/submit'); ?>">
 
             <!-- Section One: School Details -->

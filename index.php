@@ -77,13 +77,13 @@ switch (ENVIRONMENT)
 		{
 			error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT & ~E_USER_NOTICE & ~E_USER_DEPRECATED);
 		}
-		else
+		else   
 		{
 			error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE);
 		}
 	break;
 
-
+		     
 
 	default:
 		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
